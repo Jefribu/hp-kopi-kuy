@@ -1,0 +1,331 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Kopi Kuy</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>/* Pengaturan Global */
+
+@font-face {
+   font-family: 'Poppins';
+   src: url(../fonts/poppins.woff2);
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   font-family: 'Poppins';
+}
+
+.bg-kopi {
+   background-color: rgb(13, 36, 13);
+}
+
+
+.baris {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+h1 {
+   font-size: 40px;
+}
+
+/*
+section {
+   padding-top: 80px;
+   padding-bottom: 80px;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+
+h2 {
+   font-size: 34px;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+p.sub { p.tentang p.penjelasan
+   font-size: 20px;
+   width: 800px;
+   max-width: 100%;
+   text-align: center;
+   margin: auto;
+   margin-bottom: 50px;
+}
+
+
+
+img,
+video {
+   max-width: 25%;
+}
+
+*/
+
+
+/* Navigasi */
+
+nav {
+   background-color: rgb(13, 36, 13);
+   padding-left: 30px;
+   padding-right: 30px;
+}
+
+nav .chat {
+   width: 100px;
+   height: 30px;
+   text-decoration: none;
+   background-color: green;
+   color: white;
+   text-align: center;
+   line-height: 1.9rem;
+}
+
+nav .baris {
+   align-items: center;
+   height: 50px;
+}
+
+.logo {
+   height: 100px;
+}
+
+nav button {
+   width: 100px;
+   height: 30px;
+}
+
+.navigasi {
+   display: flex;
+   list-style: none;
+   margin-right: 40px;
+   align-items: center;
+   margin-left: auto;
+   text-align: center;
+}
+
+.navigasi li {
+   width: 100px;
+}
+
+.navigasi li a {
+   color: #fff;
+   text-decoration: none;
+}
+
+/* Header */
+
+header {
+   padding-left: 50px;
+   padding-top: 80px;
+   padding-bottom: 80px;
+}
+
+header .baris {
+   display: flex;
+   align-items: center;
+}
+
+header .kiri {
+   width: 50%;
+   padding-right: 100px;
+}
+
+header .kanan {
+   width: 50%;
+}
+
+header .kiri h1 {
+   margin-bottom: 25px;
+}
+
+header .kiri p.tagline {
+   margin-bottom: 20px;
+   font-size: 20px;
+}
+
+header .kiri .cta p {
+   font-size: 16px;
+   margin-bottom: 20px;
+}
+
+header .kiri .cta a {
+   text-decoration: none;
+}
+
+header .kiri .cta img {
+   height: 50px;
+}
+
+/* Best Seller */
+
+
+
+/* About Us */
+
+
+
+/* Our Team */
+
+
+
+/* Review */
+
+
+
+/* Contact Us */
+
+
+/* Footer */
+
+
+
+/* Produk */
+
+
+
+/* Media */
+
+section {
+  margin-bottom: 100px;
+}
+
+h2 {
+  font-size: 34px;
+  margin-bottom: 20px
+}
+  
+p.sub, p.tentang, p.penjelasan {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.best-seller {
+  text-align: center;
+}
+
+.best-seller .produk p {
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 19px;
+}
+
+.best-seller .produk img {
+  border-radius: 20px;
+}
+
+.about-us {
+  text-align: center;
+}
+
+.about-us h2 {
+  width: 80%;
+  background-color: greenyellow;
+}
+
+.about-us p.tentang, p.penjelasan {
+  max-width: 100%
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-us img {
+  width: 100%;
+}
+
+.our-team {
+  background-color: wheat;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+wheat
+.our-team h2 {
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.our-team .sub {
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.our-team .baris .tim {
+  margin: 20px 25px;
+  text-align: center;
+}
+
+.our-team img {
+  width: 100%;
+}
+
+.review{
+  background-size: cover;
+}
+
+.review h2 {
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.review .sub {
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.review .baris {
+  width: 1366px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+}
+
+.review .baris .testimoni {
+  width: 30%;
+  padding: 35px 50px;
+  box-shadow: 0px 0px 12px -10px #000;
+  background-color: #fff;
+}
+
+.review .profile {
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.review .profile img {
+  height: 80px;
+  margin-right: 30px;
+}
+
+.contact-us {
+  margin-bottom: 100px;
+}
+
+.contact-us .baris {
+  justify-content: center;
+}
+
+.contact-us .baris .kolom {
+  margin-top: 40px;
+  width: 25%;
+  text-align: center;
+}
+
+.contact-us .kolom a {
+  text-decoration: none;
+}
